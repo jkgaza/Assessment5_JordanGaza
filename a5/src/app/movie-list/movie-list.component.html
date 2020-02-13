@@ -1,3 +1,6 @@
-<span>
-    <movie-item *ngFor="let movie of movies" [movie]="movie"></movie-item>
-</span>
+<section>
+  <h1>Movies</h1>
+  <h2>{{ movies.title }}</h2>
+  <h3>{{ movies.releaseYear }}</h3>
+  <!-- <movie-item *ngFor="let movie of movies" [movie]="movie"></movie-item> -->
+</section>
